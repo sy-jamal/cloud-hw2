@@ -7,7 +7,7 @@
 		<?php
 			if(isset($_POST['name'])){	
 				echo '<div class = "submission form">';
-				echo '<h1> Hello'.$_POST['name'].', '.date("Y/m/d").'</h1>';
+				echo '<h1> Hello '.$_POST['name'].', '.date("m/d/Y").'</h1>';
 				echo '</div>';
 			}else{
 		?>
