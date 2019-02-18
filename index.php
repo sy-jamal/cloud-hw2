@@ -5,8 +5,10 @@
 	</head>	
 	<body>
 		<?php
-			if(isset($_POST['name'])){				
-				echo $_POST['name'];
+			if(isset($_POST['name'])){	
+				echo '<div class = "submission form">';
+				echo '<h1> Hello'.$_POST['name'].', '.date("Y/m/d").'</h1>';
+				echo '</div>';
 			}else{
 		?>
 				<div class = "submission form">		
